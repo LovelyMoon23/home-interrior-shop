@@ -1,6 +1,8 @@
-@import './styles/constants/colors';
-@import './styles/constants/typography';
+@import './constants/colors';
+@import './constants/typography';
 
-@import './styles/base/font';
-@import './styles/base/normalize';
-@import './styles/base/reset';
+@import './base/font';
+@import './base/normalize';
+@import './base/reset';
+
+@import './layouts/grids';
