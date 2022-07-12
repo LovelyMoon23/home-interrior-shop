@@ -67,7 +67,7 @@ $lg-max-container:(75px + $gutter) * $lg-columns;
 
 @for $i from 1 through $sm-columns {
   .col-sm-#{$i} {
-     width: percentage($i / $sm-columns);
+    width: percentage($i / $sm-columns);
   }
 }
 
@@ -78,7 +78,7 @@ $lg-max-container:(75px + $gutter) * $lg-columns;
   }
   @for $i from 1 through $md-columns {
     .col-md-#{$i} {
-       width: percentage($i / $md-columns);
+      width: percentage($i / $md-columns);
     }
   }
 }
@@ -91,7 +91,7 @@ $lg-max-container:(75px + $gutter) * $lg-columns;
   }
   @for $i from 1 through $lg-columns {
     .col-lg-#{$i} {
-       width: ($lg-unit + $gutter) * $i;
+      width: ($lg-unit + $gutter) * $i;
     }
   }
 }
