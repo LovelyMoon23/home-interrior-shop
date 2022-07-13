@@ -1,0 +1,27 @@
+// 가로 정렬 margin : 0 auto랑 같음
+@mixin pos-center-x($type: position) {
+  @if($type == absolute or $type == fixed ) {
+    position: $type;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+// 세로 정렬 
+@mixin pos-center-y($type: position) {
+  @if($type == absolute or $type == fixed ) {
+    position: $type;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+// 가로,세로 정렬 display:flex align-items:center; justify-contents:center; 대신 사용 
+@mixin pos-center($type: position) {
+  @if($type == absolute or $type == fixed ) {
+    position: $type;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+}
