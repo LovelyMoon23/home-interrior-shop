@@ -1,2 +1,19 @@
+.avartar-24, .avartar-32 {
+  display: block;
+  overflow: hidden;
+  border-radius: 50%; }
+  .avartar-24 img, .avartar-32 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.avartar-24 {
+  width: 24px;
+  height: 24px; }
+
+.avartar-32 {
+  width: 32px;
+  height: 32px; }
 
 /*# sourceMappingURL=style.css.map */
